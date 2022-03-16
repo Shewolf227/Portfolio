@@ -22,6 +22,9 @@
   background-color: #ACB7C3;
   margin: 6px 0;
 }
+.nav-menu {
+  cursor: pointer;
+}
 .headline-section {
   display: flex;
   flex-direction: column;
@@ -76,8 +79,16 @@
   align-items: center;
   width: 200px;
 }
-
 .item-icon {
   height: 30px;
   margin: 10px;
+  cursor: pointer;
+}
+.item-icon:hover {
+  background-color: #1C1A19
+}
+.item-icon:active {
+  background-color: #1C1A19;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
