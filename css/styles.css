@@ -284,7 +284,7 @@ html {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6f00;
-  margin: 24px 0;
+  margin: 24px 20px;
 }
 
 .about-desc {
@@ -294,7 +294,7 @@ html {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin: 44px 0;
+  margin: 44px 20px;
 }
 
 .about-img {
