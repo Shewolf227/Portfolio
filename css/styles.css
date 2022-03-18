@@ -297,6 +297,10 @@ html {
   margin: 44px 20px;
 }
 
+.resume-button {
+  margin-left: 20px;
+}
+
 .about-img {
   display: flex;
   flex-direction: column;
