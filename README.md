@@ -4,7 +4,7 @@
 
 > The goal of this project is to create the UI from the templates in Figma. I chose template 3.
 > 
-<img width="444" alt="Screenshot 2022-03-17 at 11 24 36" src="https://user-images.githubusercontent.com/98121137/158767884-47793afc-5526-4be6-a69f-4f06e86f8972.png">
+<img width="444" alt="Screenshot of the UI" src="https://user-images.githubusercontent.com/98121137/158767884-47793afc-5526-4be6-a69f-4f06e86f8972.png">
 
 ## Built With
 
