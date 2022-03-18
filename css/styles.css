@@ -129,7 +129,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: #e5e5e5;
+  background: #fff;
 }
 
 .recent-works {
@@ -142,7 +142,7 @@
   display: grid;
   grid-template-columns: auto;
   grid-gap: 24px;
-  background-color: #e5e5e5;
+  background-color: #fff;
   padding-bottom: 120px;
 }
 
@@ -151,7 +151,8 @@
 }
 
 .placeholder-img {
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .post-title {
@@ -271,6 +272,7 @@
 }
 
 .about-me {
+  display: flex;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -360,4 +362,13 @@
 .buttons li:active {
   box-shadow: 0 0 #444;
   transform: translateY(4px);
+}
+
+.see-button li a:hover {
+  color: #f55800;
+}
+
+.see-button li:hover {
+  border: 1px solid #f55800;
+  background: #fff5e1;
 }
