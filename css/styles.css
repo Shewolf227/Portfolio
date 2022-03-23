@@ -24,7 +24,7 @@ html {
   color: #fff;
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   text-decoration: none;
   cursor: pointer;
@@ -65,7 +65,7 @@ html {
 
 .hey-there {
   position: static;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -79,7 +79,7 @@ html {
 }
 
 .soft-dev {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -92,7 +92,7 @@ html {
 }
 
 .desc {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -127,7 +127,7 @@ html {
 }
 
 .section-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -157,7 +157,7 @@ html {
 }
 
 .post-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -169,7 +169,7 @@ html {
 }
 
 .post-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -183,7 +183,7 @@ html {
 
 .buttons {
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
 }
 
@@ -222,14 +222,18 @@ html {
 
 .art-printing {
   background-image:
-    linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
     url("../img/works-img/art-printing.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .art-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -242,7 +246,7 @@ html {
 }
 
 .art-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -277,7 +281,7 @@ html {
 }
 
 .about-me {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -288,7 +292,7 @@ html {
 }
 
 .about-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -318,7 +322,7 @@ html {
 }
 
 .skills-heading {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -336,7 +340,7 @@ html {
 }
 
 .language-shape {
-  list-style-image: url('../img/skills-img/language1.png');
+  list-style-image: url("../img/skills-img/language1.png");
 }
 
 .languages li {
@@ -344,7 +348,7 @@ html {
 }
 
 .frameworks-shape {
-  list-style-image: url('../img/skills-img/frameworks.png');
+  list-style-image: url("../img/skills-img/frameworks.png");
 }
 
 .frameworks li {
@@ -352,7 +356,7 @@ html {
 }
 
 .skills-shape {
-  list-style-image: url('../img/skills-img/skills.png');
+  list-style-image: url("../img/skills-img/skills.png");
 }
 
 .skills li {
@@ -383,4 +387,98 @@ html {
 
 .see-button li a:hover {
   color: inherit;
+}
+
+.contact-form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+
+  text-align: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+  margin: 120px 24px 0 24px;
+}
+
+input {
+  width: 327px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 14px 0 14px 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 15px;
+  margin: 40px 40px 0 40px;
+}
+
+.message-box {
+  max-width: 327px;
+  max-height: 114px;
+  min-width: 327px;
+  min-height: 114px;
+  border: none;
+  background-color: #fbf8f7;
+  margin-top: 39px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+
+  /* or 160% */
+  line-height: 24px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #3c3a39;
+}
+
+#button-submit {
+  text-align: center;
+  margin: 24px 0 24px 0;
+  color: white;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+#button-submit:hover {
+  border: 1px solid #ff6b00;
+  background: #fff5e1;
+  color: #ff6b00;
+}
+
+#button-submit:active {
+  background: #ff6b00;
+  color: white;
+  box-shadow: 0 0 #444;
+  transform: translateY(4px);
+}
+
+#button-submit:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
 }
