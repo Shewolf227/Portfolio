@@ -42,11 +42,11 @@ html {
   margin: 6px 0;
 }
 
-.nav-menu {
+.mobile-nav-menu {
   cursor: pointer;
 }
 
-.nav-menu:active {
+.mobile-nav-menu:active {
   box-shadow: 0 1px rgb(255, 254, 254);
   transform: translateY(4px);
 }
@@ -64,7 +64,6 @@ html {
 }
 
 .hey-there {
-  position: static;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -72,9 +71,6 @@ html {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 12px 0;
 }
 
@@ -112,7 +108,6 @@ html {
 }
 
 .item-icon {
-  height: 30px;
   margin: 10px;
   cursor: pointer;
 }
@@ -278,6 +273,7 @@ html {
 
 .about {
   background: #1c1a19;
+  margin: 0;
 }
 
 .about-me {
@@ -328,8 +324,9 @@ html {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  margin: 0 12px;
+  margin: 0 0 0 70px;
   text-align: center;
+  width: 50%;
 }
 
 .skills-list {
@@ -363,60 +360,45 @@ html {
   list-style: none;
 }
 
-@media screen and (max-width: 260px) {
-  .grid-container {
-    margin: 0 0;
-    padding: 0;
-  }
-}
-
-.buttons li:hover {
-  text-decoration: none;
-}
-
-.buttons li:active {
-  box-shadow: 0 0 #444;
-  transform: translateY(4px);
-}
-
-.see-button li:hover {
-  border: 1px solid #f55800;
-  background: #fff5e1;
-  color: #f55800;
-}
-
-.see-button li a:hover {
-  color: inherit;
-}
-
 .contact-form {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
-.contact-form p {
+.contact-form h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-
-  /* or 138% */
-
   text-align: center;
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
-
-  /* Inside auto layout */
   margin: 120px 24px 0 24px;
 }
 
+.contact-form form {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 65%;
+  margin: 50px auto;
+  border-bottom: 5px solid #505f79;
+  border-radius: 2px;
+}
+
+.social-icons li {
+  cursor: pointer;
+}
+
 input {
-  width: 327px;
+  width: 80%;
   border: none;
   border-bottom: 1px solid #dbd8d7;
   padding: 14px 0 14px 0;
@@ -430,10 +412,7 @@ input {
 }
 
 .message-box {
-  max-width: 327px;
-  max-height: 114px;
-  min-width: 327px;
-  min-height: 114px;
+  min-width: 80%;
   border: none;
   background-color: #fbf8f7;
   margin-top: 39px;
@@ -441,8 +420,6 @@ input {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-
-  /* or 160% */
   line-height: 24px;
   padding-left: 20px;
   padding-top: 20px;
@@ -451,6 +428,7 @@ input {
 
 #button-submit {
   text-align: center;
+  width: 50%;
   margin: 24px 0 24px 0;
   color: white;
   background: #ff6b00;
@@ -481,4 +459,235 @@ input {
 #button-submit:disabled {
   background: #f4f1f0;
   color: #5b5957;
+}
+
+.desktop-nav-menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  width: 100%;
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.desktop-nav-menu ul li {
+  cursor: pointer;
+}
+
+.buttons li:hover {
+  text-decoration: none;
+}
+
+.buttons li:active {
+  box-shadow: 0 0 #444;
+  transform: translateY(4px);
+}
+
+.see-button li:hover {
+  border: 1px solid #f55800;
+  background: #fff5e1;
+  color: #f55800;
+}
+
+.see-button li a:hover {
+  color: inherit;
+}
+
+.desktop-nav-menu ul li:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+.desktop-nav-menu ul li:active {
+  box-shadow: 0 0 #444;
+  transform: translateY(4px);
+}
+
+.envelope {
+  height: 18px;
+  border: 2px solid white;
+  width: 22px;
+  border-radius: 4px;
+}
+
+nav {
+  width: 50%;
+}
+
+@media screen and (max-width: 260px) {
+  .grid-container {
+    margin: 0 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-nav-menu {
+    display: none;
+  }
+
+  nav {
+    width: inherit;
+  }
+
+  .recent-works-line {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-nav-menu {
+    display: none;
+  }
+
+  .headline-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 240px 24px;
+    background: #1c1a19;
+    background-image: url("../img/desktop-bkgrnd.png");
+    background-position: 100% 100%;
+    background-size: 34%;
+    background-repeat: no-repeat;
+  }
+
+  .headline-div {
+    position: relative;
+    left: 85px;
+  }
+
+  .hey-there,
+  .desc {
+    width: 40%;
+  }
+
+  .contact-icons {
+    position: relative;
+    top: -200px;
+    list-style: none;
+    display: inline-block;
+    width: inherit;
+  }
+
+  .recent-works {
+    border-bottom: 0;
+  }
+
+  .recent-works-line {
+    position: relative;
+    left: 380px;
+    top: -165px;
+    width: 70%;
+    border: 1px solid #212121;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'firstPost firstPost firstPost';
+  }
+
+  .grid-item1 {
+    grid-area: firstPost;
+    display: flex;
+  }
+
+  .first-post-img {
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  .skills-desktop {
+    display: flex;
+    justify-content: space-evenly;
+    width: 120%;
+    border-top: 1px solid #fff;
+    margin: 0 145px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .about-me {
+    margin: 130px 24px 0 142px;
+  }
+
+  .about-img {
+    margin-bottom: 100px;
+    background-image: url("../img/about-img/about-me.png");
+    background-position: 100% 65%;
+    margin-left: 30px;
+  }
+
+  .about-desc {
+    width: 35%;
+    margin: 24px 24px 24px 142px;
+  }
+
+  .resume-button {
+    margin: 0 24px 0 142px;
+  }
+
+  .skills-heading {
+    margin: 100px 0 100px 40px;
+    text-align: left;
+    width: 100%;
+    padding: 0 24px 0 12px;
+  }
+
+  .skills-list {
+    margin: 44px 0 44px -35px;
+  }
+
+  .contact-form {
+    flex-direction: row;
+    margin: 0 0 150px 100px;
+  }
+
+  .contact-form h2 {
+    width: 30%;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .message-box {
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #button-submit {
+    margin: 0;
+    width: 20%;
+  }
+
+  input {
+    width: 100%;
+    margin: 40px 0 0 0;
+  }
+
+  .social-icons {
+    border-bottom: 0;
+    width: 20%;
+  }
+
+  .placeholder-img {
+    margin-top: 20px;
+  }
+
+  .works {
+    margin: 0 24px;
+  }
+
+  .contact-form form {
+    text-align: left;
+  }
+
+  footer {
+    border-top: 1px solid #dfe1e6;
+  }
 }

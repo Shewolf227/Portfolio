@@ -16,71 +16,88 @@
     <header class="header-container">
       <a class="logo">Sonia Karungi</a>
       <nav>
-        <div class="nav-menu">
+        <div class="mobile-nav-menu">
           <div class="menu-icon"></div>
           <div class="menu-icon"></div>
           <div class="menu-icon"></div>
         </div>
+        <div class="desktop-nav-menu">
+          <ul>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li><img class="envelope" src="./img/envelope.png" alt="envelope-icon"></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <section class="headline-section">
-      <h1 class="hey-there">Hey There. I am Sonia</h1>
-      <h2 class="soft-dev">I am a Software Developer</h2>
-      <p class="desc">
-        I can help you build a product, feature or website. Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don’t hestiate to contact me.
-      </p>
+      <div class="headline-div">
+        <h1 class="hey-there">Hey There. I am Sonia</h1>
+        <h2 class="soft-dev">I am a Software Developer</h2>
+        <p class="desc">
+          I can help you build a product, feature or website. Look through some of
+          my work and experience! If you like what you see and have a project you
+          need coded, don’t hestiate to contact me.
+        </p>
+      </div>
       <ul class="contact-icons">
         <li>
           <img
             class="item-icon"
-            src="img/social-media-icons/github.png"
+            src="./img/social-icons/light-icons/Vector.png"
             alt="GitHub Logo"
           />
         </li>
         <li>
           <img
             class="item-icon"
-            src="img/social-media-icons/linkedin.png"
-            alt="linkedin Logo"
+            src="img/social-icons/light-icons/Linkedin.png"
+            alt="Linkedin Logo"
           />
         </li>
         <li>
           <img
             class="item-icon"
-            src="img/social-media-icons/twitter.png"
+            src="img/social-icons/light-icons/Vector-1.png"
             alt="Twitter Logo"
           />
+        </li>
+        <li>
+          <img class="item-icon" src="img/social-icons/light-icons/Vector-2.png" alt="Twitter Logo" />
+        </li>
+        <li>
+          <img class="item-icon" src="img/social-icons/light-icons/Vector-3.png" alt="Twitter Logo" />
         </li>
       </ul>
     </section>
     <section class="works">
       <div class="section-title">
-        <h1 class="recent-works">My Recent Works</h1>
+        <h2 class="recent-works">My Recent Works</h2>
+        <hr class="recent-works-line">
       </div>
       <div class="grid-container">
-        <div class="grid-item">
-          <img
-            src="./img/works-img/1.png"
-            class="placeholder-img"
-            alt="Placeholder Image"
-          />
-          <h2 class="post-title">Multi-Post Stories</h2>
-          <p class="post-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="buttons first-buttons">
-            <li><a>css</a></li>
-            <li><a>html</a></li>
-            <li><a>bootstrap</a></li>
-            <li><a>Ruby</a></li>
-          </ul>
-          <ul class="buttons see-button">
-            <li><a>See Project</a></li>
-          </ul>
+        <div class="grid-item grid-item1">
+          <div class="first-post-img">
+            <img src="./img/works-img/1.png" class="placeholder-img" alt="Placeholder Image" />
+          </div>
+          <div>
+            <h2 class="post-title">Multi-Post Stories</h2>
+            <p class="post-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text ever
+              since the 1500s, when an unknown printer took a standard dummy text.
+            </p>
+            <ul class="buttons first-buttons">
+              <li><a>css</a></li>
+              <li><a>html</a></li>
+              <li><a>bootstrap</a></li>
+              <li><a>Ruby</a></li>
+            </ul>
+            <ul class="buttons see-button">
+              <li><a>See Project</a></li>
+            </ul>
+          </div>
         </div>
         <div class="grid-item art-printing">
           <h2 class="art-title">Profesional Art Printing Data</h2>
@@ -176,8 +193,8 @@
     </section>
     <section class="about-me-section">
       <div class="grid-container about">
-        <div class="grid-item about-img">
-          <h1 class="about-me">About me</h1>
+        <div class="grid-item grid-item1 about-img">
+          <h2 class="about-me">About me</h2>
           <p class="about-desc">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
@@ -189,7 +206,7 @@
           </ul>
         </div>
         <hr class="line" />
-        <ul class="grid-item">
+        <ul class="grid-item skills-desktop">
           <li class="language-shape skills-heading">
             Language
             <ul class="languages skills-list">
@@ -222,16 +239,12 @@
         </ul>
       </div>
     </section>
-    <footer class="footer-section">
-      <form
-        class="contact-form"
-        action="https://formspree.io/f/mayvbgrw"
-        method="POST"
-      >
-        <p>
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
-        </p>
+    <section class="contact-section contact-form">
+      <h2>
+        I'm always interested in hearing about new projects, so if you'd like
+        to chat please get in touch.
+      </h2>
+      <form action="https://formspree.io/f/mayvbgrw" method="POST">
         <input
           type="text"
           name="name"
@@ -249,6 +262,15 @@
         ></textarea>
         <input id="button-submit" type="submit" value="Get in touch" />
       </form>
+    </section>
+    <footer>
+      <ul class="social-icons">
+        <li><img src="./img/social-icons/dark-icons/github.png" alt="github"></li>
+        <li><img src="./img/social-icons/dark-icons/Linkedin.png" alt="linkedin"></li>
+        <li><img src="./img/social-icons/dark-icons/Vectordark-icons-2.png" alt=""></li>
+        <li><img src="./img/social-icons/dark-icons/twitter.png" alt="twitter"></li>
+        <li><img src="./img/social-icons/dark-icons/Vectordark-icons-4.png" alt=""></li>
+      </ul>
     </footer>
   </body>
 </html>
