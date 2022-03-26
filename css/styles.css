@@ -467,7 +467,7 @@ input {
   color: #fff;
   width: 100%;
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -588,7 +588,7 @@ nav {
 
   .grid-container {
     display: grid;
-    grid-template-areas: 'firstPost firstPost firstPost';
+    grid-template-areas: "firstPost firstPost firstPost";
   }
 
   .grid-item1 {
@@ -689,5 +689,68 @@ nav {
 
   footer {
     border-top: 1px solid #dfe1e6;
+  }
+
+  /* Animations */
+  @keyframes headerAnim {
+    0% {
+      opacity: 0;
+      transform: rotateX(-100deg);
+      transform-origin: top;
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotateX(0deg);
+      transform-origin: top;
+    }
+  }
+
+  .header-container {
+    animation: headerAnim 1s ease-in 0s 1 alternate both;
+  }
+
+  @keyframes contactHeadAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .contact-head {
+    animation: contactHeadAnim 1s ease-in 0s 1 alternate both;
+  }
+
+  .logo {
+    animation: logoAnim 1s ease 0s 1 alternate-reverse both;
+  }
+
+  @keyframes logoAnim {
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .grid-item:hover {
+    animation: gridItemAnim 1s ease-in-out 0s 1 normal forwards;
+  }
+
+  @keyframes gridItemAnim {
+    0% {
+      transform: scale(0.5);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 }
