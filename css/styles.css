@@ -202,7 +202,7 @@ html {
 
 .see-button li {
   margin-top: 10px;
-  background: #ff6b00;
+  background: #943E00;
   border: 0;
   font-weight: 700;
   font-size: 17px;
@@ -431,7 +431,7 @@ input {
   width: 50%;
   margin: 24px 0 24px 0;
   color: white;
-  background: #ff6b00;
+  background: #943E00;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -444,13 +444,13 @@ input {
 }
 
 #button-submit:hover {
-  border: 1px solid #ff6b00;
+  border: 1px solid #943E00;
   background: #fff5e1;
-  color: #ff6b00;
+  color: #943E00;
 }
 
 #button-submit:active {
-  background: #ff6b00;
+  background: #943E00;
   color: white;
   box-shadow: 0 0 #444;
   transform: translateY(4px);
@@ -745,12 +745,15 @@ nav {
   }
 
   @keyframes gridItemAnim {
-    0% {
-      transform: scale(0.5);
+    0%,
+    50%,
+    100% {
+      opacity: 1;
     }
 
-    100% {
-      transform: scale(1);
+    25%,
+    75% {
+      opacity: 0.5;
     }
   }
 }
