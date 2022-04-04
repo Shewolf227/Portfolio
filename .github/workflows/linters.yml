@@ -1,7 +1,10 @@
 name: Linters
+
 on: pull_request
+
 env:
   FORCE_COLOR: 1
+
 jobs:
   lighthouse:
     name: Lighthouse
@@ -32,16 +35,6 @@ jobs:
   stylelint:
     name: Stylelint
     runs-on: ubuntu-18.04
-
-    
-        
-          
-    
-
-        
-    
-    @@ -43,6 +43,20 @@ jobs:
-  
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
