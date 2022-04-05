@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: 'Profesional Art Printing Data',
-      descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     featuredImg: './img/works-img/art-printing.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: 'Profesional Art Printing Data',
-      descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     featuredImg: './img/works-img/art-printing.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: 'Profesional Art Printing Data',
-      descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     featuredImg: './img/works-img/art-printing.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: 'Profesional Art Printing Data',
-      descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     featuredImg: './img/works-img/art-printing.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: 'Profesional Art Printing Data',
-      descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     featuredImg: './img/works-img/art-printing.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
@@ -50,7 +50,7 @@ window.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: 'Profesional Art Printing Data',
-      descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     featuredImg: './img/works-img/art-printing.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
@@ -114,40 +114,40 @@ window.addEventListener('DOMContentLoaded', () => {
   firstGridItem.append(firstProjectDiv);
   seeProjectLi.append(seeProjectLink);
   seeProjectButton.append(seeProjectLi);
-    firstProjectDiv.append(seeProjectButton);
-    /**
+  firstProjectDiv.append(seeProjectButton);
+  /**
        * Desktop Project Modal
        */
-    const modalContent = document.createElement('div');
-    const modalHeader = document.createElement('div');
-    const modalBody = document.createElement('div');
-    const detailsDiv = document.createElement('div');
-    const modalFooter = document.createElement('div');
-    const closeButton = document.createElement('span');
-    const projectHeading = document.createElement('h2');
-    const projectDetails = document.createElement('p');
-    const projectUl = document.createElement('ul');
-    const projectImg = document.createElement('img');
-    const demoIcon = document.createElement('img');
-    const gitIcon = document.createElement('img');
-    const skillsUl = document.createElement('ul');
-    const demoLi = document.createElement('li');
-    const demoLink = document.createElement('a');
-    const projectLi = document.createElement('li');
-    const projectLink = document.createElement('a');
-    let skills = [];
+  const modalContent = document.createElement('div');
+  const modalHeader = document.createElement('div');
+  const modalBody = document.createElement('div');
+  const detailsDiv = document.createElement('div');
+  const modalFooter = document.createElement('div');
+  const closeButton = document.createElement('span');
+  const projectHeading = document.createElement('h2');
+  const projectDetails = document.createElement('p');
+  const projectUl = document.createElement('ul');
+  const projectImg = document.createElement('img');
+  const demoIcon = document.createElement('img');
+  const gitIcon = document.createElement('img');
+  const skillsUl = document.createElement('ul');
+  const demoLi = document.createElement('li');
+  const demoLink = document.createElement('a');
+  const projectLi = document.createElement('li');
+  const projectLink = document.createElement('a');
+  let skills = [];
 
-    modalContent.classList.add('modal-content');
-    modalHeader.classList.add('modal-header');
-    modalBody.classList.add('modal-body');
-    modalFooter.classList.add('modal-footer');
-    closeButton.classList.add('close-button');
-    projectHeading.classList.add('modal-heading');
-    projectDetails.classList.add('modal-details');
-    projectImg.classList.add('project-img');
-    projectUl.classList.add('buttons', 'see-button', 'project-buttons');
+  modalContent.classList.add('modal-content');
+  modalHeader.classList.add('modal-header');
+  modalBody.classList.add('modal-body');
+  modalFooter.classList.add('modal-footer');
+  closeButton.classList.add('close-button');
+  projectHeading.classList.add('modal-heading');
+  projectDetails.classList.add('modal-details');
+  projectImg.classList.add('project-img');
+  projectUl.classList.add('buttons', 'see-button', 'project-buttons');
 
-    closeButton.innerText = 'X';
+  closeButton.innerText = 'X';
 
   /**
      * The rest of the Projects
@@ -192,51 +192,50 @@ window.addEventListener('DOMContentLoaded', () => {
     gridItem.append(seeProjButton);
     projectsDiv.append(gridItem);
 
-      seeProjButton.onclick = function () {
-          let projectId = seeProjButton.id;
-          projectHeading.innerText = projects[projectId-1].name;
-          projectDetails.innerText = projects[projectId-1].descrtiption;
-          demoLink.innerText = 'See Live';
-          projectLink.innerText = 'See Source';
-          projectImg.src = projects[projectId-1].featuredImg;
-          skills = projects[projectId - 1].technologies;
-          demoIcon.src = './img/social-icons/light-icons/see-live-icon.png';
-          gitIcon.src = './img/social-icons/light-icons/github-light.png';
+    seeProjButton.onclick = () => {
+      const projectId = seeProjButton.id;
+      projectHeading.innerText = projects[projectId].name;
+      projectDetails.innerText = projects[projectId].descrtiption;
+      demoLink.innerText = 'See Live';
+      projectLink.innerText = 'See Source';
+      projectImg.src = projects[projectId].featuredImg;
+      demoIcon.src = './img/social-icons/light-icons/see-live-icon.png';
+      gitIcon.src = './img/social-icons/light-icons/github-light.png';
 
-          skillsUl.classList.add('buttons', 'first-buttons');
-          demoLink.href = projects[projectId - 1].demoLink;
-          projectLink.href = projects[projectId - 1].projectLink;
-          demoLi.append(demoIcon);
-          demoLi.append(demoLink);
-          projectLi.append(gitIcon);
-          projectLi.append(projectLink);
-          projectUl.append(demoLi);
-          projectUl.append(projectLi);
+      skillsUl.classList.add('buttons', 'first-buttons');
+      demoLink.href = projects[projectId].demoLink;
+      projectLink.href = projects[projectId].projectLink;
+      demoLi.append(demoIcon);
+      demoLi.append(demoLink);
+      projectLi.append(gitIcon);
+      projectLi.append(projectLink);
+      projectUl.append(demoLi);
+      projectUl.append(projectLi);
 
-          for (let i = 0; i < skills.length; i += 1) {
-              const skillsSectionLi = document.createElement('li');
-              const skillsSectionLink = document.createElement('a');
-              skillsSectionLink.innerText = skills[i];
-              skillsSectionLi.append(skillsSectionLink);
-              skillsUl.append(skillsSectionLi);
-          }
+      for (let i = 0; i < projects[projectId].technologies.length; i += 1) {
+        const skillsSectionLi = document.createElement('li');
+        const skillsSectionLink = document.createElement('a');
+        skillsSectionLink.innerText = projects[projectId].technologies[i];
+        skillsSectionLi.append(skillsSectionLink);
+        skillsUl.append(skillsSectionLi);
+      }
 
-          modalHeader.append(projectHeading);
-          modalHeader.append(skillsUl);
-          modalHeader.append(closeButton);
-          detailsDiv.append(projectDetails);
-          detailsDiv.append(projectUl);
-          modalBody.append(detailsDiv);
-          modalBody.append(projectImg);
-          modalContent.append(modalHeader);
-          modalContent.append(modalBody);
-          projectModal.append(modalContent);
+      modalHeader.append(projectHeading);
+      modalHeader.append(skillsUl);
+      modalHeader.append(closeButton);
+      detailsDiv.append(projectDetails);
+      detailsDiv.append(projectUl);
+      modalBody.append(detailsDiv);
+      modalBody.append(projectImg);
+      modalContent.append(modalHeader);
+      modalContent.append(modalBody);
+      projectModal.append(modalContent);
 
-          projectModal.style.display = 'block';
+      projectModal.style.display = 'block';
     };
   }
 
-  seeProjectButton.onclick = function () {
+  seeProjectButton.onclick = () => {
     projectHeading.innerText = projects[0].name;
     projectDetails.innerText = projects[0].descrtiption;
     demoLink.innerText = 'See Live';
@@ -278,10 +277,10 @@ window.addEventListener('DOMContentLoaded', () => {
     projectModal.style.display = 'block';
   };
 
-  closeButton.onclick = function () {
+  closeButton.onclick = () => {
     projectModal.style.display = 'none';
-      skillsUl.innerHTML = '';
-      modalHeader.innerHTML = '';
+    skillsUl.innerHTML = '';
+    modalHeader.innerHTML = '';
   };
 });
 
