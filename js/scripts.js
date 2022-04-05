@@ -88,7 +88,36 @@ firstProjectDiv.append(seeProjectButton);
 /**
  * The rest of the Projects
  */
-
+ heading.classList.add('art-title');
+ projectDesc.classList.add('art-text');
+ techSect.classList.add('buttons', 'button-transparent');
+ seeProjButton.classList.add('buttons', 'see-button', 'see-button-2');
+ 
+ heading.innerText = projects[1].name;
+ projectDesc.innerText = projects[1].descrtiption;
+ seeProjLink.innerText = 'See Project';
+ 
+ seeProjLi.append(seeProjLink);
+ seeProjButton.append(seeProjLi);
+ 
+ for (let i = 0; i < projects[1].technologies.length; i++) {
+     const techSectionLi = document.createElement('li');
+     const techSectionLink = document.createElement('a');
+     techSectionLink.innerText = projects[1].technologies[i];
+ 
+     techSectionLi.append(techSectionLink);
+     techSect.append(techSectionLi);
+ }
+ 
+ gridItem.append(heading);
+ gridItem.append(projectDesc);
+ gridItem.append(techSect);
+ gridItem.append(seeProjButton);
+ 
+ for (let i = 0; i < 6; i++) {
+     projectsDiv.appendChild(gridItem.cloneNode(true));
+ }
+ 
 /**
  * Desktop Project Modal
  */
