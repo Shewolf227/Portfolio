@@ -314,7 +314,7 @@ navList.onclick = () => {
  */
 const validateMsg = document.getElementById('validation-msg');
 const form = document.getElementById('contact-form');
-let messageObj = {};
+const messageObj = {};
 
 const submitForm = (e) => {
   const email = document.getElementById('email').value;
