@@ -314,9 +314,12 @@ navList.onclick = () => {
  */
 const validateMsg = document.getElementById('validation-msg');
 const form = document.getElementById('contact-form');
+let messageObj = {};
 
 const submitForm = (e) => {
   const email = document.getElementById('email').value;
+  const fullName = document.getElementById('name').value;
+  const message = document.getElementById('message').value;
 
   if (email !== email.toLowerCase()) {
     e.preventDefault();
@@ -324,6 +327,10 @@ const submitForm = (e) => {
     return false;
   }
 
+  messageObj.name = fullName;
+  messageObj.email = email;
+  messageObj.message = message;
+  localStorage.setItem('messageObject', JSON.stringify(messageObj));
   validateMsg.innerText = '';
   return true;
 };
