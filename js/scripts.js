@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const projects = [{
     name: 'Multi - Post Stories',
     descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featuredImg: './img/modal-img.png',
+    featuredImg: './img/modal-img.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
     projectLink: 'https://github.com/SoniaKarungi/Portfolio',
