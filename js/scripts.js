@@ -335,25 +335,31 @@ navList.onclick = () => {
  */
 const validateMsg = document.getElementById('validation-msg');
 const form = document.getElementById('contact-form');
+const email = document.getElementById('email');
+const fullName = document.getElementById('name');
+const message = document.getElementById('message');
 const messageObj = {};
 
 const submitForm = (e) => {
-  const email = document.getElementById('email').value;
-  const fullName = document.getElementById('name').value;
-  const message = document.getElementById('message').value;
 
-  if (email !== email.toLowerCase()) {
+  if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
     validateMsg.innerText = 'Kindly enter email in lowercase';
     return false;
   }
 
-  messageObj.name = fullName;
-  messageObj.email = email;
-  messageObj.message = message;
-  localStorage.setItem('messageObject', JSON.stringify(messageObj));
   validateMsg.innerText = '';
   return true;
 };
 
+const onChange = (e) => {
+  messageObj.name = fullName.value;
+  messageObj.email = email.value;
+  messageObj.message = message.value;
+  localStorage.setItem('messageObject', JSON.stringify(messageObj));
+}
+
 form.addEventListener('submit', submitForm);
+email.addEventListener('change', onChange);
+fullName.addEventListener('change', onChange);
+message.addEventListener('change', onChange);
