@@ -308,3 +308,15 @@ navList.onclick = () => {
   mobileNav.style.display = 'none';
   body.style.overflow = 'auto';
 };
+
+/**
+ * Contact Form validation - Email field
+ */
+const form = document.getElementById('contact');
+const validateMsg = document.getElementById('validation-msg');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const email = document.getElementById('email').value;
+});
