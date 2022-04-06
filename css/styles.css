@@ -18,6 +18,9 @@ html {
   justify-content: space-between;
   background: #3c3a39;
   padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .logo {
@@ -163,6 +166,19 @@ html {
   margin: 12px 0;
 }
 
+.art-title {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 70px 0 0 10px;
+}
+
 .post-text {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -216,28 +232,9 @@ html {
 }
 
 .art-printing {
-  background-image:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url("../img/works-img/art-printing.png");
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("../img/works-img/art-printing.png");
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-.art-title {
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 70px 0 0 10px;
 }
 
 .art-text {
@@ -430,7 +427,7 @@ input {
 
 .menu-modal {
   background: #3c3a39;
-  z-index: 99;
+  z-index: 3;
   top: 0;
   position: fixed;
   width: 100%;
@@ -452,7 +449,9 @@ nav {
   width: 50%;
 }
 
-.menu-modal > nav { padding: 106px 98px 106px 28px; }
+.menu-modal > nav {
+  padding: 106px 98px 106px 28px;
+}
 
 .desktop-nav-menu ul {
   display: flex;
@@ -467,7 +466,9 @@ nav {
   line-height: 20px;
 }
 
-.menu-modal > nav > ul { list-style: none; }
+.menu-modal > nav > ul {
+  list-style: none;
+}
 
 .desktop-nav-menu ul li {
   cursor: pointer;
@@ -490,7 +491,6 @@ nav {
 }
 
 /* End Nav Menu Modal Styles */
-
 #button-submit {
   text-align: center;
   width: 50%;
@@ -502,8 +502,6 @@ nav {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-
-  /* identical to box height, or 141% */
   letter-spacing: 0.03em;
   cursor: pointer;
 }
@@ -581,9 +579,192 @@ nav {
   .recent-works-line {
     display: none;
   }
+
+  /* Project details Modal */
+
+  .project-modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-header {
+    margin-bottom: -10px;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+  }
+
+  .project-img {
+    width: 100%;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  .project-buttons li {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+    padding: 0 20px;
+  }
+
+  .project-buttons li img {
+    height: 20px;
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+    left: 5%;
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+
+  .modal-heading {
+    color: #172b4d;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    padding-bottom: 80px;
+  }
+
+  .modal-details {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    margin-bottom: 20px;
+  }
+
+  .close-button {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    right: 0;
+    top: -150px;
+    color: #67798e;
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .close-button:focus {
+    color: #272f38;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* End Project details Modal */
 }
 
 @media screen and (min-width: 768px) {
+  /* Project details Modal */
+
+  .project-modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .project-img {
+    width: 328px;
+    margin-right: 25px;
+  }
+
+  .project-buttons li {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+    padding: 0 20px;
+    margin-top: 160px;
+  }
+
+  .project-buttons li img {
+    height: 20px;
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+    left: 5%;
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+  }
+
+  .modal-heading {
+    color: #172b4d;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .modal-details {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .close-button {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    right: 30px;
+    top: -70px;
+    color: #67798e;
+    float: right;
+    font-size: 16px;
+
+    /* font-weight: bold; */
+    cursor: pointer;
+  }
+
+  .close-button:focus {
+    color: #272f38;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* End Project details Modal */
   .mobile-nav-menu {
     display: none;
   }
