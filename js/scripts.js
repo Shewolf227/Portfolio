@@ -1,62 +1,83 @@
 window.addEventListener('DOMContentLoaded', () => {
   // Projects Object
-  const projects = [{
-    name: 'Multi - Post Stories',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/modal-img.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    demoLink: 'https://soniakarungi.github.io/Portfolio/',
-    projectLink: 'https://github.com/SoniaKarungi/Portfolio',
-  },
-  {
-    name: 'Profesional Art Printing Data',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/modal-img.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    demoLink: 'https://soniakarungi.github.io/Portfolio/',
-    projectLink: 'https://github.com/SoniaKarungi/Portfolio',
-  },
-  {
-    name: 'Profesional Art Printing Data',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/modal-img.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    demoLink: 'https://soniakarungi.github.io/Portfolio/',
-    projectLink: 'https://github.com/SoniaKarungi/Portfolio',
-  },
-  {
-    name: 'Profesional Art Printing Data',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/modal-img.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    demoLink: 'https://soniakarungi.github.io/Portfolio/',
-    projectLink: 'https://github.com/SoniaKarungi/Portfolio',
-  },
-  {
-    name: 'Profesional Art Printing Data',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/modal-img.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    demoLink: 'https://soniakarungi.github.io/Portfolio/',
-    projectLink: 'https://github.com/SoniaKarungi/Portfolio',
-  },
-  {
-    name: 'Profesional Art Printing Data',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/modal-img.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    demoLink: 'https://soniakarungi.github.io/Portfolio/',
-    projectLink: 'https://github.com/SoniaKarungi/Portfolio',
-  },
-  {
-    name: 'Profesional Art Printing Data',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/modal-img.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    demoLink: 'https://soniakarungi.github.io/Portfolio/',
-    projectLink: 'https://github.com/SoniaKarungi/Portfolio',
-  },
+  const projects = [
+    {
+      name: 'Multi - Post Stories',
+      descrtiption:
+        "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      featuredImg: './img/modal-img.png',
+      technologies: ['css', 'html', 'bootstrap', 'ruby'],
+      demoLink: 'https://soniakarungi.github.io/Portfolio/',
+      projectLink: 'https://github.com/SoniaKarungi/Portfolio',
+    },
+    {
+      name: 'Profesional Art Printing Data',
+      descrtiption:
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      featuredImg: './img/modal-img.png',
+      technologies: ['html', 'bootstrap', 'ruby'],
+      demoLink: 'https://soniakarungi.github.io/Portfolio/',
+      projectLink: 'https://github.com/SoniaKarungi/Portfolio',
+    },
+    {
+      name: 'Profesional Art Printing Data',
+      descrtiption:
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      featuredImg: './img/modal-img.png',
+      technologies: ['html', 'bootstrap', 'ruby'],
+      demoLink: 'https://soniakarungi.github.io/Portfolio/',
+      projectLink: 'https://github.com/SoniaKarungi/Portfolio',
+    },
+    {
+      name: 'Profesional Art Printing Data',
+      descrtiption:
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      featuredImg: './img/modal-img.png',
+      technologies: ['html', 'bootstrap', 'ruby'],
+      demoLink: 'https://soniakarungi.github.io/Portfolio/',
+      projectLink: 'https://github.com/SoniaKarungi/Portfolio',
+    },
+    {
+      name: 'Profesional Art Printing Data',
+      descrtiption:
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      featuredImg: './img/modal-img.png',
+      technologies: ['html', 'bootstrap', 'ruby'],
+      demoLink: 'https://soniakarungi.github.io/Portfolio/',
+      projectLink: 'https://github.com/SoniaKarungi/Portfolio',
+    },
+    {
+      name: 'Profesional Art Printing Data',
+      descrtiption:
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      featuredImg: './img/modal-img.png',
+      technologies: ['html', 'bootstrap', 'ruby'],
+      demoLink: 'https://soniakarungi.github.io/Portfolio/',
+      projectLink: 'https://github.com/SoniaKarungi/Portfolio',
+    },
+    {
+      name: 'Profesional Art Printing Data',
+      descrtiption:
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      featuredImg: './img/modal-img.png',
+      technologies: ['html', 'bootstrap', 'ruby'],
+      demoLink: 'https://soniakarungi.github.io/Portfolio/',
+      projectLink: 'https://github.com/SoniaKarungi/Portfolio',
+    },
   ];
+
+  // Contact form auto-fill from local storage
+  const email = document.getElementById('email');
+  const fullName = document.getElementById('name');
+  const message = document.getElementById('message');
+
+  const localMsg = JSON.parse(localStorage.getItem('messageObject'));
+
+  if (localMsg) {
+    email.value = localMsg.email;
+    fullName.value = localMsg.name;
+    message.value = localMsg.message;
+  }
 
   // First Project divs
   const firstGridItem = document.createElement('div');
@@ -75,13 +96,13 @@ window.addEventListener('DOMContentLoaded', () => {
   const projectModal = document.getElementById('project-details');
 
   /**
-     * grid-item divs
-     */
+   * grid-item divs
+   */
   firstGridItem.classList.add('grid-item', 'grid-item1');
 
   /**
-     * First Project
-     */
+   * First Project
+   */
   firstImgDiv.classList.add('first-post-img');
   firstFeaturedImg.classList.add('placeholder-img');
   firstHeading.classList.add('post-title');
@@ -116,8 +137,8 @@ window.addEventListener('DOMContentLoaded', () => {
   seeProjectButton.append(seeProjectLi);
   firstProjectDiv.append(seeProjectButton);
   /**
-       * Desktop Project Modal
-       */
+   * Desktop Project Modal
+   */
   const modalContent = document.createElement('div');
   const modalHeader = document.createElement('div');
   const modalBody = document.createElement('div');
@@ -150,8 +171,8 @@ window.addEventListener('DOMContentLoaded', () => {
   closeButton.innerText = 'X';
 
   /**
-     * The rest of the Projects
-     */
+   * The rest of the Projects
+   */
   for (let i = 0; i < 6; i += 1) {
     // Divs for the rest of the projects
     const gridItem = document.createElement('div');
@@ -314,11 +335,13 @@ navList.onclick = () => {
  */
 const validateMsg = document.getElementById('validation-msg');
 const form = document.getElementById('contact-form');
+const email = document.getElementById('email');
+const fullName = document.getElementById('name');
+const message = document.getElementById('message');
+const messageObj = {};
 
 const submitForm = (e) => {
-  const email = document.getElementById('email').value;
-
-  if (email !== email.toLowerCase()) {
+  if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
     validateMsg.innerText = 'Kindly enter email in lowercase';
     return false;
@@ -328,4 +351,14 @@ const submitForm = (e) => {
   return true;
 };
 
+const onChange = () => {
+  messageObj.name = fullName.value;
+  messageObj.email = email.value;
+  messageObj.message = message.value;
+  localStorage.setItem('messageObject', JSON.stringify(messageObj));
+};
+
 form.addEventListener('submit', submitForm);
+email.addEventListener('change', onChange);
+fullName.addEventListener('change', onChange);
+message.addEventListener('change', onChange);
