@@ -316,7 +316,6 @@ const validateMsg = document.getElementById('validation-msg');
 const form = document.getElementById('contact-form');
 
 const submitForm = (e) => {
-
   const email = document.getElementById('email').value;
 
   if (email !== email.toLowerCase()) {
