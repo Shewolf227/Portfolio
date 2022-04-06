@@ -321,7 +321,7 @@ const submitForm = (e) => {
 
   if (email !== email.toLowerCase()) {
     e.preventDefault();
-    validateMsg.innerText = 'Kindly input email in lowercase';
+    validateMsg.innerText = 'Kindly enter email in lowercase';
     return false;
   }
 
