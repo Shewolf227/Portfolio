@@ -341,7 +341,6 @@ const message = document.getElementById('message');
 const messageObj = {};
 
 const submitForm = (e) => {
-
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
     validateMsg.innerText = 'Kindly enter email in lowercase';
@@ -352,12 +351,12 @@ const submitForm = (e) => {
   return true;
 };
 
-const onChange = (e) => {
+const onChange = () => {
   messageObj.name = fullName.value;
   messageObj.email = email.value;
   messageObj.message = message.value;
   localStorage.setItem('messageObject', JSON.stringify(messageObj));
-}
+};
 
 form.addEventListener('submit', submitForm);
 email.addEventListener('change', onChange);
