@@ -312,11 +312,16 @@ navList.onclick = () => {
 /**
  * Contact Form validation - Email field
  */
-const form = document.getElementById('contact');
 const validateMsg = document.getElementById('validation-msg');
 
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-
+const submitForm = () => {
   const email = document.getElementById('email').value;
-});
+
+  if (email !== email.toLowerCase()) {
+    validateMsg.innerText = 'Kindly input email in lowercase';
+    return false;
+  }
+  
+  validateMsg.innerText = '';
+  return true;
+}
