@@ -20,7 +20,7 @@ html {
   padding: 20px;
   position: sticky;
   top: 0;
-  z-index: 99;
+  z-index: 2;
 }
 
 .logo {
@@ -427,7 +427,7 @@ input {
 
 .menu-modal {
   background: #3c3a39;
-  z-index: 99;
+  z-index: 3;
   top: 0;
   position: fixed;
   width: 100%;
@@ -585,7 +585,7 @@ nav {
   .project-modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -681,7 +681,7 @@ nav {
   .project-modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -697,11 +697,11 @@ nav {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 60%;
+    width: 80%;
   }
 
   .project-img {
-    width: 40%;
+    width: 328px;
     margin-right: 25px;
   }
 
@@ -710,6 +710,7 @@ nav {
     flex-direction: row-reverse;
     margin-right: 20px;
     padding: 0 20px;
+    margin-top: 160px;
   }
 
   .project-buttons li img {

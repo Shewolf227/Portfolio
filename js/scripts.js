@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const projects = [{
     name: 'Multi - Post Stories',
     descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/works-img/1.png',
+      featuredImg: './img/modal-img.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
     projectLink: 'https://github.com/SoniaKarungi/Portfolio',
@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
   {
     name: 'Profesional Art Printing Data',
     descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/works-img/art-printing.png',
+    featuredImg: './img/modal-img.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
     projectLink: 'https://github.com/SoniaKarungi/Portfolio',
@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
   {
     name: 'Profesional Art Printing Data',
     descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/works-img/art-printing.png',
+    featuredImg: './img/modal-img.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
     projectLink: 'https://github.com/SoniaKarungi/Portfolio',
@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
   {
     name: 'Profesional Art Printing Data',
     descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/works-img/art-printing.png',
+    featuredImg: './img/modal-img.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
     projectLink: 'https://github.com/SoniaKarungi/Portfolio',
@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', () => {
   {
     name: 'Profesional Art Printing Data',
     descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/works-img/art-printing.png',
+    featuredImg: './img/modal-img.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
     projectLink: 'https://github.com/SoniaKarungi/Portfolio',
@@ -43,7 +43,7 @@ window.addEventListener('DOMContentLoaded', () => {
   {
     name: 'Profesional Art Printing Data',
     descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/works-img/art-printing.png',
+    featuredImg: './img/modal-img.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
     projectLink: 'https://github.com/SoniaKarungi/Portfolio',
@@ -51,7 +51,7 @@ window.addEventListener('DOMContentLoaded', () => {
   {
     name: 'Profesional Art Printing Data',
     descrtiption: "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featuredImg: './img/works-img/art-printing.png',
+    featuredImg: './img/modal-img.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     demoLink: 'https://soniakarungi.github.io/Portfolio/',
     projectLink: 'https://github.com/SoniaKarungi/Portfolio',
