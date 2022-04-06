@@ -308,3 +308,24 @@ navList.onclick = () => {
   mobileNav.style.display = 'none';
   body.style.overflow = 'auto';
 };
+
+/**
+ * Contact Form validation - Email field
+ */
+const validateMsg = document.getElementById('validation-msg');
+const form = document.getElementById('contact-form');
+
+const submitForm = (e) => {
+  const email = document.getElementById('email').value;
+
+  if (email !== email.toLowerCase()) {
+    e.preventDefault();
+    validateMsg.innerText = 'Kindly enter email in lowercase';
+    return false;
+  }
+
+  validateMsg.innerText = '';
+  return true;
+};
+
+form.addEventListener('submit', submitForm);

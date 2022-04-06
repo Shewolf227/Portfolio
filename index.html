@@ -22,9 +22,9 @@
             </div>
             <div class="desktop-nav-menu">
                 <ul>
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><img class="envelope" src="./img/envelope.png" alt="envelope-icon"></li>
                 </ul>
             </div>
@@ -114,11 +114,12 @@
         <h2 class="contact-head">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
         </h2>
-        <form action="https://formspree.io/f/mayvbgrw" method="POST">
-            <input type="text" name="name" aria-label="Name" maxlength="30" placeholder="Full name" required />
-            <input type="email" name="email" aria-label="Email" placeholder="Email address" required />
-            <textarea class="message-box" name="message" aria-label="Message" maxlength="500" placeholder="Enter your message..." required></textarea>
+        <form action="https://formspree.io/f/mayvbgrw" method="POST" id="contact-form">
+            <input id="name" type="text" name="name" aria-label="Name" maxlength="30" placeholder="Full name" required />
+            <input type="email" id="email" name="email" aria-label="Email" placeholder="Email address" required />
+            <textarea id="message" class="message-box" name="message" aria-label="Message" maxlength="500" placeholder="Enter your message..." required></textarea>
             <input id="button-submit" type="submit" value="Get in touch" />
+            <p id="validation-msg"></p>
         </form>
     </section>
     <footer>
