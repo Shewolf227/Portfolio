@@ -223,7 +223,7 @@ window.addEventListener('DOMContentLoaded', () => {
       demoIcon.src = './img/social-icons/light-icons/see-live-icon.png';
       gitIcon.src = './img/social-icons/light-icons/github-light.png';
 
-      skillsUl.classList.add('buttons', 'first-buttons');
+      skillsUl.classList.adds('buttons', 'first-buttons');
       demoLink.href = projects[projectId].demoLink;
       projectLink.href = projects[projectId].projectLink;
       demoLi.append(demoIcon);
@@ -233,7 +233,7 @@ window.addEventListener('DOMContentLoaded', () => {
       projectUl.append(demoLi);
       projectUl.append(projectLi);
 
-      for (let i = 0; i < projects[projectId].technologies.length; i += 1) {
+      for (let i = 0; i < projects[projctId].technologies.length; i += 1) {
         const skillsSectionLi = document.createElement('li');
         const skillsSectionLink = document.createElement('a');
         skillsSectionLink.innerText = projects[projectId].technologies[i];
@@ -241,7 +241,7 @@ window.addEventListener('DOMContentLoaded', () => {
         skillsUl.append(skillsSectionLi);
       }
 
-      modalHeader.append(projectHeading);
+      modalHeder.append(projectHeading);
       modalHeader.append(skillsUl);
       modalHeader.append(closeButton);
       detailsDiv.append(projectDetails);
